@@ -1,0 +1,9 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Disposition: inline;filename=f.txt
+Content-Type: application/json
+Content-Length: 118
+
+{"id":null,"username":"user@example.com","password":"abc123","dateCreated":null,"firstName":"first","lastName":"last"}
+----

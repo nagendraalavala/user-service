@@ -1,0 +1,8 @@
+com\perficient\service\ResponseBodyMatchers.class
+com\perficient\service\UserAPICreateControllerTests.class
+com\perficient\service\FieldValidationError.class
+com\perficient\service\ErrorResult.class
+com\perficient\service\UserAPIDeleteControllerTests.class
+com\perficient\service\AbstractUserAPIControllerTests.class
+com\perficient\service\UserAPIReadControllerTests.class
+com\perficient\service\TestUtils.class

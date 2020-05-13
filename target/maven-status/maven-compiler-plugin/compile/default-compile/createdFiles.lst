@@ -1,0 +1,10 @@
+com\perficient\service\SpringbootApplication.class
+com\perficient\service\dao\UserRepository.class
+com\perficient\service\dao\UserService.class
+com\perficient\service\SpringFoxConfig.class
+com\perficient\service\exception\DuplicateEntityException.class
+com\perficient\service\DatasourceConfig.class
+com\perficient\service\UserAPIController.class
+com\perficient\service\dao\UserServiceImpl.class
+com\perficient\service\types\User.class
+com\perficient\service\NoAuthConfiguration.class
