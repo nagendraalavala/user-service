@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.perficient.service.UserAPICreateControllerTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.473 s - in com.perficient.service.UserAPICreateControllerTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.519 s - in com.perficient.service.UserAPICreateControllerTests
