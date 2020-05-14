@@ -1,8 +1,0 @@
-.+/users/{username}+
-|===
-|Parameter|Description
-
-|`+username+`
-|Username of user to delete.
-
-|===

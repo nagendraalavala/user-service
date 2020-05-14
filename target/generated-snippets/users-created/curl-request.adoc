@@ -1,7 +1,0 @@
-[source,bash]
-----
-$ curl 'http://localhost:8080/users' -i -X POST \
-    -H 'Content-Type: application/json' \
-    -H 'Accept: application/json' \
-    -d '{"id":null,"username":"user@example.com","password":"abc123","dateCreated":null,"firstName":"first","lastName":"last"}'
-----
