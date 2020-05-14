@@ -2,101 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71bdf929-fd14-4ac7-91b8-d244d5ba1a4b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/HealthCheckController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/health/HealthCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_eureka_client_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_hystrix_2_2_2_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/perficient/service/HealthCheckController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/HealthCheckController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/perficient/service/SpringbootApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/SpringbootApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/perficient/service/health/CustomHealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/health/CustomHealthCheck.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/perficient/service/types/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/perficient/service/types/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perficient/service/SpringbootApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/perficient/service/SpringbootApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perficient/service/health/CustomHealthCheck.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/perficient/service/health/CustomHealthCheck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/perficient/service/types/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/perficient/service/types/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/curl-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/http-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/http-response.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/httpie-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/request-body.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-created/response-body.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/curl-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/http-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/http-response.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/httpie-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/path-parameters.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/request-body.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-delete/response-body.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/curl-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/http-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/http-response.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/httpie-request.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/path-parameters.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/request-body.adoc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-snippets/users-get-one/response-body.adoc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/perficient/service/HealthCheckController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/perficient/service/HealthCheckController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/jacoco.exec" beforeDir="false" afterPath="$PROJECT_DIR$/target/jacoco.exec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.dao/UserServiceImpl.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.dao/UserServiceImpl.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.dao/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.dao/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.exception/DuplicateEntityException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.exception/DuplicateEntityException.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.exception/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.exception/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.health/CustomHealthCheck.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.health/CustomHealthCheck.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.health/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.health/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.types/User.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.types/User.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.types/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service.types/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/DatasourceConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/DatasourceConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/NoAuthConfiguration.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/NoAuthConfiguration.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/SpringFoxConfig.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/SpringFoxConfig.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/SpringbootApplication.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/SpringbootApplication.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/UserAPIController.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/UserAPIController.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/com.perficient.service/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2020-05-14T22-13-51_829-jvmRun1.dump" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPICreateControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPICreateControllerTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPIDeleteControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPIDeleteControllerTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPIReadControllerTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.perficient.service.UserAPIReadControllerTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPICreateControllerTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPICreateControllerTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPIDeleteControllerTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPIDeleteControllerTests.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPIReadControllerTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.perficient.service.UserAPIReadControllerTests.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/user-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/user-service.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/user-service.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +55,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../demo/demo" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -203,22 +125,30 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="0" y="56" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1589378829322" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589475211304">
+    <state x="421" y="96" key="FileChooserDialogImpl" timestamp="1589477013929">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589475211304" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589475211304">
+    <state x="421" y="96" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1589477013929" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1589477409904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589475211304" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589475211303">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1589477409904" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1589477409904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589475211303" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589475211304">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1589477409904" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1589477409904">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589475211304" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1589477409904" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1589477409904">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1589477409904" />
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog" timestamp="1589477287211">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="171" y="0" key="Maven.ArtifactSearchDialog/0.0.1280.680@0.0.1280.680" timestamp="1589477287211" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1589472848619">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

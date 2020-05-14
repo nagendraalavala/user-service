@@ -22,7 +22,7 @@ public class HealthCheckController
     private final String zone;
     private RestTemplate restTemplate;
 
-    
+
     public HealthCheckController(@Value("${platform}")String platform,
                                  @Value("${region}") String region,
                                  @Value("${zone}") String zone,RestTemplate restTemplate)
@@ -54,6 +54,6 @@ public class HealthCheckController
         healthCheck.setRegion(region);
         healthCheck.setZone(zone);
         return Boolean.valueOf(healthCheck.getStatus().toString().equalsIgnoreCase("User-Service Available"))
-        ?ResponseEntity.ok(healthCheck):ResponseEntity.badRequest().body(healthCheck);
+        ? ResponseEntity.ok(healthCheck):ResponseEntity.badRequest().body(healthCheck);
     }
 }
