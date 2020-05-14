@@ -40,9 +40,6 @@ public class SpringbootApplication {
         return new BCryptPasswordEncoder();
     }
 
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder.build();
-    }
+
 
 }

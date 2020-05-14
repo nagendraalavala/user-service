@@ -37,4 +37,16 @@ public class User  implements Serializable {
     @Field
     private String lastName;
 
+    @Field
+    private String countryCode;
+
+    @Field
+    private String zipCode;
+
+    @Field
+    private String countryCurrency;
+
+    @Field
+    private String quote;
+
 }

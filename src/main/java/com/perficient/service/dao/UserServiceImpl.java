@@ -2,6 +2,9 @@ package com.perficient.service.dao;
 
 import java.util.Date;
 
+import com.perficient.service.adaptor.CountryServiceAdaptor;
+import com.perficient.service.adaptor.QuoateAdaptor;
+import com.perficient.service.types.UserInfo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,11 +21,16 @@ public class UserServiceImpl implements UserService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UserServiceImpl.class);
     private final UserRepository userRepository;
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
+    private final CountryServiceAdaptor serviceAdaptor;
+    private QuoateAdaptor quoateAdaptor;
 
     @Autowired
-    public UserServiceImpl(final UserRepository userRepository,  final BCryptPasswordEncoder bCryptPasswordEncoder) {
+    public UserServiceImpl(final UserRepository userRepository,  final BCryptPasswordEncoder bCryptPasswordEncoder,
+                           final CountryServiceAdaptor serviceAdaptor, QuoateAdaptor quoateAdaptor) {
         this.userRepository = userRepository;
         this.bCryptPasswordEncoder = bCryptPasswordEncoder;
+        this.serviceAdaptor = serviceAdaptor;
+        this.quoateAdaptor = quoateAdaptor;
     }
 
     @Override
@@ -35,9 +43,12 @@ public class UserServiceImpl implements UserService {
         final User foundUser = userRepository.findByUsername(user.getUsername());
         if (foundUser != null) throw new DuplicateEntityException("Username " + user.getUsername() + " already exists.");
 
+
         user.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
         user.setDateCreated(new Date());
-        userRepository.save(user);
+        String countryCurrency = serviceAdaptor.getCountryCurrencyDetails(user.getCountryCode());
+        String quote = quoateAdaptor.getQuote();
+        userRepository.save(mapToUser(user,countryCurrency,quote));
     }
 
     @Override
@@ -68,5 +79,43 @@ public class UserServiceImpl implements UserService {
         }
         return user != null;
     }
+
+    private UserInfo mapToUserInfo(User user) {
+        UserInfo entityUser = new UserInfo();
+        if(user != null) {
+            entityUser.setUsername(user.getUsername());
+            entityUser.setPassword(user.getPassword());
+            entityUser.setDateCreated(user.getDateCreated());
+            entityUser.setFirstName(user.getFirstName());
+            entityUser.setLastName(user.getLastName());
+            entityUser.setCountryCode(user.getCountryCode());
+            entityUser.setCountryCurrency(user.getCountryCurrency());
+            entityUser.setQuote(user.getQuote());
+        }
+
+        return entityUser;
+    }
+
+    private User mapToUser(User user, String currency, String quote) {
+        User entityUser = new User();
+        if(user != null) {
+            entityUser.setUsername(user.getUsername());
+            entityUser.setPassword(bCryptPasswordEncoder.encode(user.getPassword()));
+            entityUser.setDateCreated(new Date());
+            entityUser.setFirstName(user.getFirstName());
+            entityUser.setLastName(user.getLastName());
+            entityUser.setCountryCode(user.getCountryCode());
+            entityUser.setCountryCurrency(currency);
+            entityUser.setQuote(quote);
+        }
+        return entityUser;
+    }
+
+    private Iterable<UserInfo> mapToUserInfoList(Iterable<User> userList) {
+
+        return null;
+    }
+
+
 
 }
