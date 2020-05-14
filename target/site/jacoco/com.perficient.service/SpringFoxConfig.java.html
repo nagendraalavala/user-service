@@ -11,14 +11,14 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @Configuration
 @EnableSwagger2
-<span class="nc" id="L14">public class SpringFoxConfig {                                    </span>
+<span class="fc" id="L14">public class SpringFoxConfig {                                    </span>
     @Bean
     public Docket api() { 
-<span class="nc" id="L17">        return new Docket(DocumentationType.SWAGGER_2)  </span>
-<span class="nc" id="L18">          .select()                                  </span>
-<span class="nc" id="L19">          .apis(RequestHandlerSelectors.basePackage(&quot;com.perficient.service&quot;))              </span>
-<span class="nc" id="L20">          .paths(PathSelectors.any())                          </span>
-<span class="nc" id="L21">          .build();                                           </span>
+<span class="fc" id="L17">        return new Docket(DocumentationType.SWAGGER_2)  </span>
+<span class="fc" id="L18">          .select()                                  </span>
+<span class="fc" id="L19">          .apis(RequestHandlerSelectors.basePackage(&quot;com.perficient.service&quot;))              </span>
+<span class="fc" id="L20">          .paths(PathSelectors.any())                          </span>
+<span class="fc" id="L21">          .build();                                           </span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>

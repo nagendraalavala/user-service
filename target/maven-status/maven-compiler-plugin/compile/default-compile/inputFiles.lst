@@ -8,3 +8,4 @@ C:\Users\varshi\Downloads\user-service (1)\user-service\src\main\java\com\perfic
 C:\Users\varshi\Downloads\user-service (1)\user-service\src\main\java\com\perficient\service\exception\DuplicateEntityException.java
 C:\Users\varshi\Downloads\user-service (1)\user-service\src\main\java\com\perficient\service\SpringbootApplication.java
 C:\Users\varshi\Downloads\user-service (1)\user-service\src\main\java\com\perficient\service\UserAPIController.java
+C:\Users\varshi\Downloads\user-service (1)\user-service\src\main\java\com\perficient\service\health\CustomHealthCheck.java

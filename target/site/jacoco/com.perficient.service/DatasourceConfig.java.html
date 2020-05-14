@@ -9,7 +9,7 @@ import java.util.List;
 
 @Configuration
 @EnableCouchbaseRepositories(basePackages={&quot;com.perficient.service.dao&quot;})
-<span class="nc" id="L12">public class DatasourceConfig extends AbstractCouchbaseConfiguration {</span>
+<span class="fc" id="L12">public class DatasourceConfig extends AbstractCouchbaseConfiguration {</span>
 
     @Value(&quot;${app.datasource.couchbase.hostname}&quot;)
     private List&lt;String&gt; couchbaseHostname;
@@ -22,17 +22,17 @@ import java.util.List;
 
     @Override
     protected List&lt;String&gt; getBootstrapHosts() {
-<span class="nc" id="L25">        return couchbaseHostname;</span>
+<span class="fc" id="L25">        return couchbaseHostname;</span>
     }
 
     @Override
     protected String getBucketName() {
-<span class="nc" id="L30">        return couchbaseBucketName;</span>
+<span class="fc" id="L30">        return couchbaseBucketName;</span>
     }
 
     @Override
     protected String getBucketPassword() {
-<span class="nc" id="L35">        return couchbaseBucketPassword;</span>
+<span class="fc" id="L35">        return couchbaseBucketPassword;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.2.201808211720</span></div></body></html>
